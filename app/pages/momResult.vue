@@ -5,6 +5,11 @@
 <template>
   <UContainer class="py-10 max-w-3xl">
     <UCard class="shadow-lg">
+      <template #header>
+        <div class="w-full flex items-center justify-center">
+          <NuxtImg src="/ph1.jpg" />
+        </div>
+      </template>
       <p>
         Готово!
       </p>

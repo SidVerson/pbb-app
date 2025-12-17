@@ -2,6 +2,11 @@
 <template>
   <UContainer class="min-h-screen flex items-center justify-center">
     <UCard class="w-full max-w-md">
+      <template #header>
+        <div class="w-full flex items-center justify-center">
+          <NuxtImg src="/ph1.jpg" />
+        </div>
+      </template>
       <div class="text-center">
         <h1 class="text-2xl font-bold mb-4">
           Давайте познакомимся поближе!
